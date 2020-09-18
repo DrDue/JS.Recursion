@@ -22,10 +22,10 @@ document.write( `<hr/>` );
 
 document.write( `<h2>JS.Recursion.2</h2>` );
 
-let x = prompt( 'Exponent ' )
+let r = prompt( 'the first part of the exponent: ' );
+let e = prompt( 'the second part of the exponent: ' );
 
-document.write( '' )
+document.write( 'Exponent = ' + pow( r, e ) )
 
-console.log( pow( 4, 2 ) );
 
 document.write( `<hr/>` );
